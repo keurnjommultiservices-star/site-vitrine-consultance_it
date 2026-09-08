@@ -129,3 +129,10 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "Lieu / client", name: "loc", widget: "string" }
+              - label: "Statut"
+                name: "status"
+                widget: "select"
+                options:
+                  - { label: "Fait", value: "fait" }
+                  - { label: "En cours", value: "en_cours" }
+                default: "en_cours"

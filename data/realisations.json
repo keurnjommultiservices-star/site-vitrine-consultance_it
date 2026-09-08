@@ -4,7 +4,7 @@
       "tag": "Gestion scolaire",
       "title": "Application de gestion d'écoles primaires de la Commune de Popenguine-NDayane",
       "desc": "Élèves, notes et bulletins (CI à CM2), fonctionnant hors-ligne, déployée dans plusieurs établissements.",
-      "loc": "Popenguine, Point E, Dakar",
+      "loc": "Popenguine, Point E, Dakar ",
       "status": "fait"
     },
     {
@@ -32,7 +32,7 @@
       "tag": "Site institutionnel",
       "title": "Site officiel de la Commune de Popenguine-NDayane",
       "desc": "Site vitrine et informationnel pour une commune, avec nom de domaine et messagerie professionnelle dédiés.",
-      "loc": "Popenguine-Ndayane",
+      "loc": " <strong>Popenguine-Ndayane</strong>",
       "status": "fait"
     },
     {
@@ -46,21 +46,21 @@
       "tag": "Site vitrine",
       "title": "Cabinet médical d'ophtalmologie et de pédiatrie",
       "desc": "Site de présentation pour un cabinet médical, pensé pour la prise de rendez-vous en ligne.",
-      "loc": "Bloc Carnot, Dakar",
+      "loc": "<strong>Bloc Carnot, Dakar</strong>",
       "status": "en_cours"
     },
     {
       "tag": "Hôtellerie",
       "title": "Site vitrine d'hôtel (Pierre de Lisse",
       "desc": "Chambres, tarifs et réservation par WhatsApp pour un établissement sur la Petite Côte.",
-      "loc": "Popenguine-Ndayane",
+      "loc": "<strong>Popenguine-Ndayane</strong>",
       "status": "en_cours"
     },
     {
       "tag": "E-commerce",
       "title": "Boutique alimentaire en ligne",
       "desc": "Boutique Shopify pour la vente de céréales et produits locaux comme le mbouraké.",
-      "loc": "Nabou Sire Business",
+      "loc": "<strong>Nabou Sire Business </strong>",
       "status": "en_cours"
     }
   ]

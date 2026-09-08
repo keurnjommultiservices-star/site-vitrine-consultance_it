@@ -124,14 +124,21 @@ function renderServices(data) {
 function renderRealisations(data) {
   const grid = document.getElementById('work-grid');
   if (!grid || !data || !Array.isArray(data.items)) return;
-  grid.innerHTML = data.items.map(r => `
+  grid.innerHTML = data.items.map(r => {
+    const isFait = r.status === 'fait';
+    const badge = `<span class="status-badge ${isFait ? 'fait' : 'en-cours'}">${isFait ? 'Fait' : 'En cours'}</span>`;
+    return `
     <div class="work-card">
-      <span class="tag">${r.tag}</span>
+      <div class="card-top">
+        <span class="tag">${r.tag}</span>
+        ${badge}
+      </div>
       <h3>${r.title}</h3>
       <p>${r.desc}</p>
       <span class="loc">${r.loc}</span>
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
 
 (async function init() {

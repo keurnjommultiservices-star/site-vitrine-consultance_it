@@ -4,28 +4,28 @@
       "tag": "Gestion scolaire",
       "title": "Application de gestion d'écoles primaires de la Commune de Popenguine-NDayane",
       "desc": "Élèves, notes et bulletins (CI à CM2), fonctionnant hors-ligne, déployée dans plusieurs établissements.",
-      "loc": "Popenguine, Point E, Dakar ",
+      "loc": " <strong>Popenguine, Point E, Dakar</strong>",
       "status": "fait"
     },
     {
       "tag": "Santé",
       "title": "Gestion de pharmacie & poste de santé",
       "desc": "Suivi des ventes, dotations aux services internes et stock avec méthode FEFO pour éviter les péremptions.",
-      "loc": "Gaspard Kamara, Dakar",
+      "loc": " <strong>Gaspard Kamara, Dakar</strong>",
       "status": "en_cours"
     },
     {
       "tag": "SaaS",
       "title": "Gestion des files d'attente",
       "desc": "Plateforme Node.js pour fluidifier l'accueil des patients dans les centres de santé de la région de Dakar.",
-      "loc": "Région de Dakar",
+      "loc": "<strong>Région de Dakar </strong>",
       "status": "en_cours"
     },
     {
       "tag": "Paie",
       "title": "Sunupaie — logiciel de paie",
       "desc": "Progiciel de gestion de la paie, taux de cotisations et bulletins, développé pour un usage multi-entreprises.",
-      "loc": "Keurnjom Multiservices",
+      "loc": " <strong>Cabinet Berber</strong>",
       "status": "fait"
     },
     {
@@ -39,7 +39,7 @@
       "tag": "Automatisation",
       "title": "Alerte déclarations fiscales",
       "desc": "Système d'alerte automatique des échéances fiscales par NINEA, sur Google Sheets et Apps Script.",
-      "loc": "Contribuables au Sénégal",
+      "loc": " <strong>Contribuables au Sénégal</strong>",
       "status": "en_cours"
     },
     {

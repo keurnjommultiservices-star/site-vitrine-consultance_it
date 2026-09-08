@@ -22,9 +22,9 @@
   },
   "about": {
     "paragraphs": [
-      "Keurnjom Multiservices est porté par <strong>Babacar</strong>, gérant d'une entreprise de bâtiment qui exerce en parallèle dans la consultance informatique et la conception de sites web.",
-      "Cette double pratique se retrouve dans la façon de construire les outils numériques : comme un chantier, chaque projet suit un plan clair, des fondations solides et une livraison qui tient dans le temps — que ce soit un site vitrine, une application de gestion ou un agent IA branché sur WhatsApp Business.",
-      "Les clients viennent d'univers concrets — écoles, pharmacies, cabinets médicaux, mairies, entreprises — et repartent avec un outil pensé pour leur usage quotidien, pas pour la démo."
+      "Keurnjom Multiservices est porté par <strong>Babacar</strong>, gérant d'une entreprise de prestations de services qui exerce en parallèle dans la consultance informatique et la conception de sites web.",
+      "Cette double pratique se retrouve dans la façon de construire les outils numériques : comme prestations de services, chaque projet suit un process clair, et une livraison qui tient dans le temps — que ce soit un site vitrine, une application de gestion ou un agent IA branché sur WhatsApp Business.",
+      "Les clients viennent d'univers concrets — écoles, pharmacies, cabinets médicaux, mairies, entreprises, particuliers — et repartent avec un outil pensé pour leur usage quotidien, pas pour la démo."
     ],
     "chantier_value": "Gérance des dossiers : Enregistreements actes de cessions, Nicads, Autorisations de construire, Baux etc......",
     "stat_label": "un seul réflexe : livrer un travail solide",
@@ -54,7 +54,7 @@
       },
       {
         "key": "Domaines",
-        "value": "Bâtiment · IT · Web"
+        "value": "Prestations de services · IT · Web"
       },
       {
         "key": "Délai de réponse",

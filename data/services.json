@@ -5,28 +5,44 @@
       "title": "Sites web",
       "sub": "Vitrines & institutionnels",
       "desc": "Sites vitrines pour cliniques, hôtels et administrations, pensés pour convertir un visiteur en appel ou en réservation WhatsApp — pas juste jolis, utiles.",
-      "tags": ["Site institutionnel de commune", "Vitrine cabinet médical", "Site hôtel avec réservation"]
+      "tags": [
+        "Site institutionnel de commune",
+        "Vitrine cabinet médical",
+        "Site hôtel avec réservation"
+      ]
     },
     {
       "icon": "app",
       "title": "Applications de gestion",
       "sub": "Écoles, pharmacies, entreprises",
       "desc": "Logiciels sur mesure, souvent utilisables hors-ligne, pour gérer élèves et bulletins, stock de médicaments, paie du personnel ou files d'attente en centre de santé.",
-      "tags": ["Gestion scolaire (élèves, notes, bulletins)", "Gestion de stock pharmacie", "Paie & files d'attente"]
+      "tags": [
+        "Gestion scolaire (élèves, notes, bulletins)",
+        "Gestion de stock pharmacie",
+        "Paie & files d'attente"
+      ]
     },
     {
       "icon": "shield",
       "title": "Conseil IT",
       "sub": "Diagnostic & accompagnement",
-      "desc": "Choix d'outils, mise en place de systèmes d'alerte (échéances fiscales, relances), et accompagnement des équipes pour que le numérique reste simple à utiliser.",
-      "tags": ["Automatisation d'alertes fiscales", "Choix d'hébergement & domaine", "Formation des équipes"]
+      "desc": "Choix d'outils, mise en place de systèmes d'alerte (échéances fiscales, relances), et accompagnement des équipes pour que le numérique reste simple à utiliser. Domaines fiscaux : accompagnement dans les declarations fiscales au niveau des differentes plateformes de la DGID.",
+      "tags": [
+        "Automatisation d'alertes fiscales",
+        "Choix d'hébergement & domaine",
+        "Formation des équipes"
+      ]
     },
     {
       "icon": "chat",
       "title": "Agents IA WhatsApp Business",
       "sub": "Réponse client automatisée",
       "desc": "Des agents IA branchés sur WhatsApp Business qui répondent aux clients, qualifient les demandes et libèrent du temps à l'équipe — configurés autour du métier réel du client.",
-      "tags": ["Réponses automatiques 24/7", "Qualification des demandes", "Intégration WhatsApp Business"]
+      "tags": [
+        "Réponses automatiques 24/7",
+        "Qualification des demandes",
+        "Intégration WhatsApp Business"
+      ]
     }
   ]
 }

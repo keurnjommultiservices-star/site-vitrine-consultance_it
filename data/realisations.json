@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "tag": "Gestion scolaire",
+      "title": "Application de gestion d'écoles primaires",
+      "desc": "Élèves, notes et bulletins (CI à CM2), fonctionnant hors-ligne, déployée dans plusieurs établissements.",
+      "loc": "Popenguine, Point E, Dakar"
+    },
+    {
+      "tag": "Santé",
+      "title": "Gestion de pharmacie & poste de santé",
+      "desc": "Suivi des ventes, dotations aux services internes et stock avec méthode FEFO pour éviter les péremptions.",
+      "loc": "Gaspard Kamara, Dakar"
+    },
+    {
+      "tag": "SaaS",
+      "title": "Gestion des files d'attente",
+      "desc": "Plateforme Node.js pour fluidifier l'accueil des patients dans les centres de santé de la région de Dakar.",
+      "loc": "Région de Dakar"
+    },
+    {
+      "tag": "Paie",
+      "title": "Sunupaie — logiciel de paie",
+      "desc": "Progiciel de gestion de la paie, taux de cotisations et bulletins, développé pour un usage multi-entreprises.",
+      "loc": "Keurnjom Multiservices"
+    },
+    {
+      "tag": "Site institutionnel",
+      "title": "Site officiel de la Commune",
+      "desc": "Site vitrine et informationnel pour une commune, avec nom de domaine et messagerie professionnelle dédiés.",
+      "loc": "Popenguine-Ndayane"
+    },
+    {
+      "tag": "Automatisation",
+      "title": "Alerte déclarations fiscales",
+      "desc": "Système d'alerte automatique des échéances fiscales par NINEA, sur Google Sheets et Apps Script.",
+      "loc": "Contribuables au Sénégal"
+    },
+    {
+      "tag": "Site vitrine",
+      "title": "Cabinet médical d'ophtalmologie",
+      "desc": "Site de présentation pour un cabinet médical, pensé pour la prise de rendez-vous en ligne.",
+      "loc": "Bloc Carnot, Dakar"
+    },
+    {
+      "tag": "Hôtellerie",
+      "title": "Site vitrine d'hôtel",
+      "desc": "Chambres, tarifs et réservation par WhatsApp pour un établissement sur la Petite Côte.",
+      "loc": "Popenguine-Ndayane"
+    },
+    {
+      "tag": "E-commerce",
+      "title": "Boutique alimentaire en ligne",
+      "desc": "Boutique Shopify pour la vente de céréales et produits locaux comme le mbouraké.",
+      "loc": "Nabou Sire Business"
+    }
+  ]
+}

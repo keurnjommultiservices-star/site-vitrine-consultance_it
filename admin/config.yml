@@ -1,0 +1,131 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "site"
+    label: "Contenu général"
+    files:
+      - file: "data/site.json"
+        name: "site"
+        label: "Accueil, À propos, Contact"
+        fields:
+          - label: "Marque"
+            name: "brand"
+            widget: "object"
+            fields:
+              - { label: "Nom de l'entreprise", name: "name", widget: "string" }
+
+          - label: "En-tête (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Localisation", name: "location", widget: "string" }
+              - { label: "Titre — première ligne", name: "title_line1", widget: "string" }
+              - { label: "Titre — partie en couleur", name: "title_accent", widget: "string" }
+              - { label: "Texte d'accroche", name: "lead", widget: "text" }
+              - { label: "Bouton principal", name: "cta_primary_label", widget: "string" }
+              - { label: "Bouton secondaire", name: "cta_secondary_label", widget: "string" }
+
+          - label: "Intro Services"
+            name: "services_intro"
+            widget: "object"
+            fields:
+              - { label: "Étiquette", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Texte", name: "text", widget: "text" }
+
+          - label: "Intro Réalisations"
+            name: "work_intro"
+            widget: "object"
+            fields:
+              - { label: "Étiquette", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Texte", name: "text", widget: "text" }
+
+          - label: "À propos"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Grand chiffre", name: "big_stat", widget: "string" }
+              - { label: "Légende du chiffre", name: "stat_label", widget: "string" }
+              - { label: "Étiquette 1", name: "chantier_label", widget: "string" }
+              - { label: "Valeur 1", name: "chantier_value", widget: "string" }
+              - { label: "Étiquette 2", name: "ecran_label", widget: "string" }
+              - { label: "Valeur 2", name: "ecran_value", widget: "string" }
+              - { label: "Étiquette de section", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - label: "Paragraphes"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraphe", name: "paragraph", widget: "text" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Étiquette de section", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Texte d'accroche", name: "lead", widget: "text" }
+              - { label: "Numéro WhatsApp (format 221XXXXXXXXX)", name: "whatsapp_number", widget: "string" }
+              - { label: "Texte du bouton WhatsApp", name: "whatsapp_label", widget: "string" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "Texte du bouton e-mail", name: "email_label", widget: "string" }
+              - label: "Lignes de la fiche contact"
+                name: "card_rows"
+                widget: "list"
+                fields:
+                  - { label: "Clé", name: "key", widget: "string" }
+                  - { label: "Valeur", name: "value", widget: "string" }
+
+          - label: "Pied de page"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Mention de copyright", name: "copyright", widget: "string" }
+
+  - name: "services"
+    label: "Services"
+    files:
+      - file: "data/services.json"
+        name: "services"
+        label: "Liste des services"
+        fields:
+          - label: "Services"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - label: "Icône"
+                name: "icon"
+                widget: "select"
+                options: ["web", "app", "shield", "chat"]
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "sub", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - label: "Étiquettes (exemples de projets)"
+                name: "tags"
+                widget: "list"
+                field: { label: "Étiquette", name: "tag", widget: "string" }
+
+  - name: "realisations"
+    label: "Réalisations"
+    files:
+      - file: "data/realisations.json"
+        name: "realisations"
+        label: "Liste des réalisations"
+        fields:
+          - label: "Réalisations"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Catégorie", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Lieu / client", name: "loc", widget: "string" }

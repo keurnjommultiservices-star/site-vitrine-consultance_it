@@ -313,40 +313,67 @@
     <div>
       <div class="hero-art">
         <svg viewBox="0 0 460 380" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- house / chantier -->
-          <g stroke="#3d5a8f" stroke-width="1.6">
-            <polyline points="60,190 170,110 280,190" fill="none"/>
-            <line x1="80" y1="190" x2="80" y2="300"/>
-            <line x1="260" y1="190" x2="260" y2="300"/>
-            <line x1="80" y1="300" x2="260" y2="300"/>
-            <rect x="120" y="230" width="34" height="70" fill="none"/>
-            <line x1="180" y1="230" x2="220" y2="230"/>
-            <line x1="180" y1="250" x2="220" y2="250"/>
-            <line x1="180" y1="270" x2="220" y2="270"/>
+          <!-- storefront / commerce -->
+          <g stroke="#5b7ab0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="35,95 35,70 60,55 145,55 170,70 170,95" fill="none"/>
+            <path d="M35,95 L48,80 L61,95 L74,80 L87,95 L100,80 L113,95 L126,80 L139,95 L152,80 L170,95"/>
+            <rect x="45" y="95" width="115" height="65" fill="none"/>
+            <rect x="90" y="118" width="26" height="42"/>
+            <line x1="58" y1="112" x2="78" y2="112"/>
+            <line x1="58" y1="122" x2="78" y2="122"/>
+            <line x1="130" y1="112" x2="150" y2="112"/>
+            <line x1="130" y1="122" x2="150" y2="122"/>
           </g>
-          <line x1="170" y1="150" x2="170" y2="195" stroke="#e8953c" stroke-width="1.6"/>
-          <line x1="148" y1="172" x2="192" y2="172" stroke="#e8953c" stroke-width="1.6"/>
+
+          <!-- itinéraire / logistique -->
+          <line x1="180" y1="128" x2="255" y2="128" stroke="#e8953c" stroke-width="1.4" stroke-dasharray="4 6"/>
+          <circle cx="263" cy="128" r="7" fill="none" stroke="#e8953c" stroke-width="1.6"/>
+          <path d="M263,140 L258,155 L268,155 Z" fill="#e8953c"/>
+
+          <!-- camion / transport -->
+          <g stroke="#5b7ab0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="20" y1="290" x2="285" y2="290"/>
+            <rect x="35" y="205" width="130" height="75" rx="3" fill="none"/>
+            <line x1="35" y1="225" x2="165" y2="225"/>
+            <line x1="75" y1="205" x2="75" y2="280"/>
+            <line x1="115" y1="205" x2="115" y2="280"/>
+            <path d="M165,240 h38 l24,24 v16 h-62 z" fill="none"/>
+            <rect x="196" y="252" width="20" height="16" fill="none"/>
+            <circle cx="87" cy="290" r="16" fill="#0b1b33"/>
+            <circle cx="87" cy="290" r="6" fill="none"/>
+            <circle cx="205" cy="290" r="16" fill="#0b1b33"/>
+            <circle cx="205" cy="290" r="6" fill="none"/>
+          </g>
+          <line x1="10" y1="228" x2="28" y2="228" stroke="#5b7ab0" stroke-width="1.4" opacity="0.6"/>
+          <line x1="6" y1="245" x2="28" y2="245" stroke="#5b7ab0" stroke-width="1.4" opacity="0.6"/>
+          <line x1="10" y1="262" x2="28" y2="262" stroke="#5b7ab0" stroke-width="1.4" opacity="0.6"/>
 
           <!-- connector -->
-          <line x1="290" y1="245" x2="330" y2="245" stroke="#e8953c" stroke-width="1.4" stroke-dasharray="4 5"/>
-          <polygon points="285,245 293,240 293,250" fill="#e8953c"/>
-          <polygon points="335,245 327,240 327,250" fill="#e8953c"/>
+          <line x1="290" y1="230" x2="322" y2="230" stroke="#e8953c" stroke-width="1.4" stroke-dasharray="4 5"/>
+          <polygon points="285,230 293,225 293,235" fill="#e8953c"/>
+          <polygon points="327,230 319,225 319,235" fill="#e8953c"/>
 
           <!-- screen / produit -->
-          <g stroke="#3d5a8f" stroke-width="1.6">
-            <rect x="335" y="120" width="105" height="170" rx="3" fill="none"/>
-            <circle cx="352" cy="135" r="2.2" fill="#3d5a8f" stroke="none"/>
-            <circle cx="360" cy="135" r="2.2" fill="#3d5a8f" stroke="none"/>
-            <line x1="335" y1="146" x2="440" y2="146"/>
-            <line x1="352" y1="164" x2="424" y2="164"/>
-            <line x1="352" y1="176" x2="400" y2="176"/>
-            <rect x="352" y="192" width="72" height="46" fill="none"/>
-            <line x1="352" y1="256" x2="424" y2="256"/>
-            <line x1="352" y1="268" x2="410" y2="268"/>
+          <g stroke="#5b7ab0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="330" y="60" width="115" height="240" rx="5" fill="none"/>
+            <line x1="330" y1="82" x2="445" y2="82"/>
+            <circle cx="344" cy="71" r="2.4" fill="#5b7ab0" stroke="none"/>
+            <circle cx="353" cy="71" r="2.4" fill="#5b7ab0" stroke="none"/>
+            <circle cx="362" cy="71" r="2.4" fill="#5b7ab0" stroke="none"/>
+            <rect x="378" y="66" width="55" height="9" rx="4"/>
           </g>
+          <g stroke="#5b7ab0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="341" y="92" width="93" height="46" rx="3"/>
+            <line x1="341" y1="150" x2="410" y2="150"/>
+            <line x1="341" y1="162" x2="390" y2="162"/>
+            <rect x="341" y="177" width="43" height="52" rx="3"/>
+            <rect x="391" y="177" width="43" height="52" rx="3"/>
+          </g>
+          <rect x="341" y="252" width="72" height="24" rx="5" fill="#e8953c"/>
+          <line x1="352" y1="264" x2="393" y2="264" stroke="#0b1b33" stroke-width="2" stroke-linecap="round"/>
         </svg>
       </div>
-      <div class="art-labels"><span>CHANTIER</span><span>PRODUIT</span></div>
+      <div class="art-labels"><span>PRESTATIONS</span><span>PRODUIT</span></div>
     </div>
   </div>
 </section>

@@ -62,6 +62,27 @@
       "desc": "Boutique Shopify pour la vente de céréales et produits locaux comme le mbouraké.",
       "loc": "<strong>Nabou Sire Business </strong>",
       "status": "en_cours"
+    },
+    {
+      "tag": "SaaS",
+      "title": "Réservation de terrains de mini-foot",
+      "desc": "Plateforme multi-gérants pour réserver un terrain par date et heure, avec paiement en ligne Wave et Orange Money.",
+      "loc": "<strong>Gérants de terrains au Sénégal</strong>",
+      "status": "en_cours"
+    },
+    {
+      "tag": "Fiscalité",
+      "title": "Demandes de quitus fiscal en ligne",
+      "desc": "Espace contribuable (dépôt par NINEA, suivi de statut) et espace agent pour le traitement des dossiers.",
+      "loc": "<strong>Centre des Impôts de Dakar Plateau</strong>",
+      "status": "en_cours"
+    },
+    {
+      "tag": "Gestion scolaire",
+      "title": "Plateforme fusionnée Préscolaire & Élémentaire",
+      "desc": "Gestion des élèves, notes et bulletins pour les deux cycles réunis (PS à CM2), pensée pour les complexes scolaires privés.",
+      "loc": "<strong>Complexes scolaires privés</strong>",
+      "status": "en_cours"
     }
   ]
 }

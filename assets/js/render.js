@@ -95,7 +95,10 @@ function renderSite(data) {
     setText('contact-lead', c.lead);
     const wa = document.getElementById('contact-whatsapp');
     if (wa) {
-      if (c.whatsapp_number) wa.href = `https://wa.me/${c.whatsapp_number}`;
+      if (c.whatsapp_number) {
+        const msg = c.whatsapp_message ? `?text=${encodeURIComponent(c.whatsapp_message)}` : '';
+        wa.href = `https://wa.me/${c.whatsapp_number}${msg}`;
+      }
       if (c.whatsapp_label) wa.textContent = c.whatsapp_label;
     }
     const email = document.getElementById('contact-email');

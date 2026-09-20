@@ -4,9 +4,9 @@
   },
   "hero": {
     "location": "Dakar & Petite Côte, Sénégal",
-    "title_line1": "Vos outils numériques,",
+    "title_line1": "Vos prestations de services pour une bonne prise en charge totale, vos outils numériques,",
     "title_accent": "pensés, construits, livrés.",
-    "lead": "Sites web, applications de gestion, prestations de services (commerce, transport, logistique) et conseil IT pour entreprises, écoles, pharmacies et administrations au Sénégal — de l'idée au logiciel qui tourne au quotidien.",
+    "lead": "Sites web, applications de gestion, prestations de services (commerce, transport, logistique) et conseil IT pour entreprises, écoles, pharmacies et administrations au Sénégal.. — de l'idée au logiciel qui tourne au quotidien.",
     "cta_primary_label": "Démarrer un projet",
     "cta_secondary_label": "Voir les réalisations"
   },
@@ -21,37 +21,48 @@
     "text": "Un aperçu de projets livrés et déployés auprès d'écoles, de structures de santé et d'entreprises."
   },
   "about": {
-    "big_stat": "2 métiers",
-    "stat_label": "un seul réflexe : livrer un travail solide",
-    "chantier_label": "CÔTÉ CHANTIER",
-    "chantier_value": "Gérance d'une entreprise de bâtiment",
-    "ecran_label": "CÔTÉ ÉCRAN",
-    "ecran_value": "Consultance IT & conception web",
-    "kicker": "À propos",
-    "title": "Un pied sur le chantier, un pied dans le code",
     "paragraphs": [
-      "Keurnjom Multiservices est porté par <strong>Babacar</strong>, gérant d'une entreprise de bâtiment qui exerce en parallèle dans la consultance informatique et la conception de sites web.",
-      "Cette double pratique se retrouve dans la façon de construire les outils numériques : comme un chantier, chaque projet suit un plan clair, des fondations solides et une livraison qui tient dans le temps — que ce soit un site vitrine, une application de gestion ou un agent IA branché sur WhatsApp Business.",
-      "Les clients viennent d'univers concrets — écoles, pharmacies, cabinets médicaux, mairies, entreprises — et repartent avec un outil pensé pour leur usage quotidien, pas pour la démo."
-    ]
+      "Keurnjom Multiservices est porté par <strong>Babacar</strong>, Informaticien de plus 30 ans d'experience, gérant d'une entreprise de prestations de services qui exerce en parallèle dans la consultance informatique et la conception de sites web.",
+      "Cette double pratique se retrouve dans la façon de construire les outils numériques : comme prestations de services, chaque projet suit un process clair, et une livraison qui tient dans le temps — que ce soit un site vitrine, une application de gestion ou un agent IA branché sur WhatsApp Business.",
+      "Les clients viennent d'univers concrets — écoles, pharmacies, cabinets médicaux, mairies, entreprises, particuliers — et repartent avec un outil pensé pour leur usage quotidien, pas pour la démo."
+    ],
+    "chantier_value": "Gérance des dossiers : Enregistreements actes de cessions, Nicads, Autorisations de construire, Baux etc......",
+    "stat_label": "un seul réflexe : livrer un travail solide",
+    "chantier_label": "CÔTÉ DOSSIERS",
+    "kicker": "À propos",
+    "big_stat": "2 métiers",
+    "ecran_value": "Consultance IT & conception web",
+    "ecran_label": "CÔTÉ ÉCRAN",
+    "title": "Un pied dans les dossiers, un pied dans le code"
   },
   "contact": {
     "kicker": "Contact",
     "title": "Un projet à construire ?",
     "lead": "Décrivez votre besoin — site vitrine, application de gestion ou agent IA WhatsApp — et discutons de la meilleure façon de le livrer.",
-    "whatsapp_number": "221000000000",
-    "whatsapp_message": "Bonjour, j'ai vu votre site Keurnjom Multiservices et j'aimerais discuter d'un projet numérique pour mon activité.",
+    "whatsapp_number": "221781402849",
     "whatsapp_label": "Écrire sur WhatsApp",
-    "email": "contact@keurnjom.sn",
+    "email": "keurnjommultiservices@gmail.com",
     "email_label": "Envoyer un e-mail",
     "card_rows": [
-      { "key": "Entreprise", "value": "Keurnjom Multiservices" },
-      { "key": "Zone d'intervention", "value": "Dakar & Petite Côte, Sénégal" },
-      { "key": "Domaines", "value": "Bâtiment · IT · Web" },
-      { "key": "Délai de réponse", "value": "Sous 24h ouvrées" }
+      {
+        "key": "Entreprise",
+        "value": "Keurnjom Multiservices"
+      },
+      {
+        "key": "Zone d'intervention",
+        "value": "Dakar & Petite Côte, Sénégal"
+      },
+      {
+        "key": "Domaines",
+        "value": "Prestations de services · IT · Web"
+      },
+      {
+        "key": "Délai de réponse",
+        "value": "Sous 24h ouvrées"
+      }
     ]
   },
   "footer": {
-    "copyright": "© 2026 Keurnjom Multiservices — Sénégal."
+    "copyright": "© 2026 Keurnjom Multiservices — Sénégal. RC :  SN-DKR-2024-A-53543  NINEA : 011870963"
   }
 }

@@ -8,6 +8,19 @@ const ICONS = {
   chat: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>`
 };
 
+const CATEGORY_STYLE = {
+  "Gestion scolaire": { bg: "bg-scolaire", icon: "🏫" },
+  "Santé": { bg: "bg-sante", icon: "💊" },
+  "SaaS": { bg: "bg-saas", icon: "💻" },
+  "Paie": { bg: "bg-paie", icon: "💼" },
+  "Site institutionnel": { bg: "bg-institutionnel", icon: "🏛️" },
+  "Automatisation": { bg: "bg-auto", icon: "⚙️" },
+  "Site vitrine": { bg: "bg-sante", icon: "🩺" },
+  "Hôtellerie": { bg: "bg-hotel", icon: "🏨" },
+  "E-commerce": { bg: "bg-ecommerce", icon: "🛒" }
+};
+const DEFAULT_CATEGORY_STYLE = { bg: "bg-saas", icon: "💡" };
+
 function setText(id, value) {
   const el = document.getElementById(id);
   if (el && value !== undefined && value !== null) el.textContent = value;
@@ -126,16 +139,22 @@ function renderRealisations(data) {
   if (!grid || !data || !Array.isArray(data.items)) return;
   grid.innerHTML = data.items.map(r => {
     const isFait = r.status === 'fait';
-    const badge = `<span class="status-badge ${isFait ? 'fait' : 'en-cours'}">${isFait ? 'Fait' : 'En cours'}</span>`;
+    const statusBadge = `<span class="status-badge ${isFait ? 'fait' : 'en-cours'}">${isFait ? 'Fait' : 'En cours'}</span>`;
+    const style = CATEGORY_STYLE[r.tag] || DEFAULT_CATEGORY_STYLE;
     return `
-    <div class="work-card">
-      <div class="card-top">
-        <span class="tag">${r.tag}</span>
-        ${badge}
+    <div class="portfolio-card">
+      <div class="card-image-placeholder ${style.bg}">
+        <span class="project-icon">${style.icon}</span>
       </div>
-      <h3>${r.title}</h3>
-      <p>${r.desc}</p>
-      <span class="loc">${r.loc}</span>
+      <div class="card-content">
+        <div class="card-badges">
+          <span class="badge">${r.tag}</span>
+          ${statusBadge}
+        </div>
+        <h3>${r.title}</h3>
+        <p>${r.desc}</p>
+        <span class="loc">${r.loc}</span>
+      </div>
     </div>
   `;
   }).join('');

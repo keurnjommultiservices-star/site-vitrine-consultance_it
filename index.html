@@ -13,6 +13,7 @@
     --navy-900:#0e2140;
     --navy-800:#16294a;
     --navy-700:#1f3560;
+    --navy-green-950:#0c2620;
     --line:#2a3f66;
     --cream:#f7f4ec;
     --ink:#10203a;
@@ -28,7 +29,7 @@
   html{scroll-behavior:smooth;}
   body{
     margin:0;
-    background:var(--navy-950);
+    background:linear-gradient(180deg, var(--navy-950) 0%, var(--navy-950) 45%, var(--navy-green-950) 100%);
     color:var(--white);
     font-family:'Inter',sans-serif;
     font-size:16px;
@@ -87,7 +88,7 @@
   .hero{
     position:relative;
     overflow:hidden;
-    background:var(--navy-950);
+    background:transparent;
     background-image:
       linear-gradient(var(--line) 1px, transparent 1px),
       linear-gradient(90deg, var(--line) 1px, transparent 1px);
@@ -186,27 +187,49 @@
   .work .section-kicker{color:var(--orange-dark);}
   .work .section-head h2{color:var(--ink);}
   .work .section-head p{color:#5a6480;}
-  .work-grid{
-    display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
-    background:#ded7c4;
-    border:1px solid #ded7c4;
+
+  .portfolio-grid{
+    display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:24px;
   }
-  .work-card{
-    background:var(--cream);
-    padding:34px 30px;
-    min-height:220px;
+  .portfolio-card{
+    background:#ffffff;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0 4px 6px rgba(16,32,58,0.06);
+    transition:transform .2s ease, box-shadow .2s ease;
     display:flex;flex-direction:column;
   }
-  .work-card .tag{
-    font-size:0.85rem;font-weight:700;letter-spacing:0.06em;
-    color:var(--orange-dark);text-transform:uppercase;margin-bottom:16px;
+  .portfolio-card:hover{transform:translateY(-5px);box-shadow:0 10px 20px rgba(16,32,58,0.1);}
+  .card-image-placeholder{
+    height:150px;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2.75rem;
   }
-  .work-card .card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px;}
-  .work-card .card-top .tag{margin-bottom:0;}
+  .bg-scolaire{background:linear-gradient(135deg,#16294a 0%,#3a5a96 100%);}
+  .bg-sante{background:linear-gradient(135deg,#0f5c3c 0%,#4caf6e 100%);}
+  .bg-saas{background:linear-gradient(135deg,#0e3b3b 0%,#1f8a7a 100%);}
+  .bg-paie{background:linear-gradient(135deg,#c97a28 0%,#e8953c 100%);}
+  .bg-institutionnel{background:linear-gradient(135deg,#1f3560 0%,#4a6da0 100%);}
+  .bg-auto{background:linear-gradient(135deg,#5c7a1f 0%,#a4c639 100%);}
+  .bg-hotel{background:linear-gradient(135deg,#7a4a28 0%,#b97a3f 100%);}
+  .bg-ecommerce{background:linear-gradient(135deg,#8a4a1f 0%,#e8953c 100%);}
+
+  .card-content{padding:22px;display:flex;flex-direction:column;flex-grow:1;}
+  .card-content .card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px;}
+  .card-content h3{margin:0 0 8px 0;font-size:1.08rem;color:var(--ink);line-height:1.3;}
+  .card-content p{font-size:0.9rem;color:#5a6480;line-height:1.5;margin:0 0 14px;flex-grow:1;}
+  .badge{
+    display:inline-block;
+    background:rgba(16,32,58,0.06);color:var(--ink);
+    padding:4px 12px;border-radius:20px;
+    font-size:0.72rem;font-weight:700;letter-spacing:0.02em;
+  }
+  .card-badges{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px;}
   .status-badge{
     display:inline-flex;align-items:center;gap:6px;
     font-size:0.72rem;font-weight:700;letter-spacing:0.04em;
-    padding:5px 12px;border-radius:20px;white-space:nowrap;
+    padding:4px 12px;border-radius:20px;white-space:nowrap;
     text-transform:uppercase;
   }
   .status-badge::before{content:"";width:6px;height:6px;border-radius:50%;}
@@ -214,9 +237,7 @@
   .status-badge.fait::before{background:#1f7a4d;}
   .status-badge.en-cours{background:#e8953c26;color:var(--orange-dark);}
   .status-badge.en-cours::before{background:var(--orange-dark);}
-  .work-card h3{font-size:1.12rem;color:var(--ink);margin-bottom:10px;line-height:1.3;}
-  .work-card p{font-size:0.92rem;color:#5a6480;margin:0;flex-grow:1;}
-  .work-card .loc{margin-top:16px;font-size:0.8rem;color:#8b8266;}
+  .card-content .loc{margin-top:auto;padding-top:10px;font-size:0.78rem;color:#8b8266;}
 
   /* ---------- À propos ---------- */
   .about-grid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:64px;align-items:start;}
@@ -236,7 +257,7 @@
 
   /* ---------- Contact ---------- */
   .contact{
-    background:var(--navy-900);
+    background:transparent;
     border-top:1px solid var(--navy-700);
   }
   .contact-inner{
@@ -270,7 +291,7 @@
     .hero-grid{grid-template-columns:1fr;padding:56px 0 64px;}
     .hero-art{order:-1;max-width:340px;margin:0 auto 12px;}
     .service-row{grid-template-columns:1fr;gap:16px;}
-    .work-grid{grid-template-columns:1fr;}
+    .portfolio-grid{grid-template-columns:1fr;}
     .about-grid,.contact-inner{grid-template-columns:1fr;}
     section{padding:64px 0;}
     .wrap{padding:0 20px;}
@@ -401,7 +422,7 @@
       <p id="work-text">Un aperçu de projets livrés et déployés auprès d'écoles, de structures de santé et d'entreprises.</p>
     </div>
 
-    <div class="work-grid" id="work-grid">
+    <div class="portfolio-grid" id="work-grid">
       <!-- injecté depuis data/realisations.json -->
     </div>
   </div>

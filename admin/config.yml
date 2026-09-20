@@ -73,6 +73,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Texte d'accroche", name: "lead", widget: "text" }
               - { label: "Numéro WhatsApp (format 221XXXXXXXXX)", name: "whatsapp_number", widget: "string" }
+              - { label: "Message pré-rempli WhatsApp", name: "whatsapp_message", widget: "text", required: false }
               - { label: "Texte du bouton WhatsApp", name: "whatsapp_label", widget: "string" }
               - { label: "E-mail", name: "email", widget: "string" }
               - { label: "Texte du bouton e-mail", name: "email_label", widget: "string" }

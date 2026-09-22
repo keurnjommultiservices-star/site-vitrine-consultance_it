@@ -20,6 +20,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Nom de l'entreprise", name: "name", widget: "string" }
+              - { label: "Accroche (sous le nom, dans l'en-tête)", name: "tagline", widget: "string", required: false }
 
           - label: "En-tête (Hero)"
             name: "hero"

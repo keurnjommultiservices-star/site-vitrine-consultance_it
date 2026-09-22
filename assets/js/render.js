@@ -48,6 +48,7 @@ function renderSite(data) {
   if (data.brand) {
     setText('brand-name-header', data.brand.name);
     setText('brand-name-footer', data.brand.name);
+    setText('brand-tagline', data.brand.tagline);
   }
 
   if (data.hero) {

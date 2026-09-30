@@ -76,6 +76,20 @@
       "desc": "Plateforme web multi-utilisateurs pour le suivi des containers (entrée, sortie, emplacement, statut), la gestion clients et la facturation.",
       "loc": "West Africa Logistics Limited (WALL)",
       "status": "fait"
+    },
+    {
+      "tag": "Gestion",
+      "title": "Gestion de stations-service",
+      "desc": "Prototype de gestion multi-stations avec centralisation des données au siège, pour une société possédant plusieurs stations d'essence.",
+      "loc": "StationCtrl",
+      "status": "en_cours"
+    },
+    {
+      "tag": "Gestion",
+      "title": "Gestion de magasins Minane Shop",
+      "desc": "Gestion multi-magasins (stock, ventes, caisses) avec dashboard centralisé pour la direction et comptes caissiers par magasin.",
+      "loc": "Minane Shop, région de Dakar",
+      "status": "en_cours"
     }
   ]
 }

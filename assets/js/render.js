@@ -18,7 +18,8 @@ const CATEGORY_STYLE = {
   "Site vitrine": { bg: "bg-sante", icon: "🩺" },
   "Hôtellerie": { bg: "bg-hotel", icon: "🏨" },
   "E-commerce": { bg: "bg-ecommerce", icon: "🛒" },
-  "Logistique": { bg: "bg-logistique", icon: "🚚" }
+  "Logistique": { bg: "bg-logistique", icon: "🚚" },
+  "Gestion": { bg: "bg-gestion", icon: "🏬" }
 };
 const DEFAULT_CATEGORY_STYLE = { bg: "bg-saas", icon: "💡" };
 

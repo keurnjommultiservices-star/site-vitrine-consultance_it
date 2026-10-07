@@ -103,11 +103,11 @@
     overflow:hidden;
     background-color:#3b9860;
     background-image:
-      url("assets/hero-bg.svg"),
+      url("assets/hero-photo.png"),
       linear-gradient(135deg, #2b8253 0%, #3b9860 55%, #4aad6d 100%),
       linear-gradient(rgba(255,255,255,0.07) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255,255,255,0.07) 1px, transparent 1px);
-    background-size:cover, cover, 56px 56px, 56px 56px;
+    background-size:auto 100%, cover, 56px 56px, 56px 56px;
     background-position:right center, center, center -1px, center -1px;
     background-repeat:no-repeat, no-repeat, repeat, repeat;
   }
@@ -154,13 +154,14 @@
   .hero-art{
     position:relative;
     aspect-ratio:1/0.85;
+    visibility:hidden; /* dessin masqué : la photo tramée occupe la droite */
   }
   .hero-art svg{width:100%;height:100%;}
   .art-cap{
     text-align:center;font-size:0.7rem;font-weight:600;letter-spacing:0.12em;
     color:var(--slate-dim);margin-top:10px;
   }
-  .art-labels{display:flex;justify-content:space-between;padding:0 6%;margin-top:14px;}
+  .art-labels{display:none;}
   .art-labels span{font-size:0.95rem;font-weight:700;letter-spacing:0.08em;color:#ffffff;}
 
   /* ---------- Section shell ---------- */
@@ -301,9 +302,9 @@
   @media (max-width:900px){
     nav.primary, .cta-btn{display:none;}
     .menu-toggle{display:block;}
-    .hero{background-size:auto 60%, cover, 56px 56px, 56px 56px;background-position:right bottom, center, center -1px, center -1px;}
+    .hero{background-size:auto 70%, cover, 56px 56px, 56px 56px;background-position:right bottom, center, center -1px, center -1px;}
     .hero-grid{grid-template-columns:1fr;padding:56px 0 64px;}
-    .hero-art{order:-1;max-width:340px;margin:0 auto 12px;}
+    .hero-art{display:none;}
     .service-row{grid-template-columns:1fr;gap:16px;}
     .portfolio-grid{grid-template-columns:1fr;}
     .about-grid,.contact-inner{grid-template-columns:1fr;}

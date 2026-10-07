@@ -2,10 +2,17 @@
   "items": [
     {
       "tag": "Gestion scolaire",
-      "title": "Application de gestion d'écoles primaires",
-      "desc": "Élèves, notes et bulletins (CI à CM2), fonctionnant hors-ligne, déployée dans plusieurs établissements.",
+      "title": "SunuÉcole — gestion d'école primaire",
+      "desc": "Élèves, enseignants, notes, bulletins et finances (CI à CM2), fonctionnant hors-ligne, déployée dans plusieurs écoles de la commune.",
       "loc": "Popenguine, Point E, Dakar",
       "status": "fait"
+    },
+    {
+      "tag": "Gestion scolaire",
+      "title": "SunuÉcole Pro — du primaire au collège",
+      "desc": "Évolution de SunuÉcole étendue au collège (6e à 3e), avec enseignants par matière, notes, bulletins et finances.",
+      "loc": "Écoles primaires et collèges, Sénégal",
+      "status": "en_cours"
     },
     {
       "tag": "Santé",

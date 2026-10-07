@@ -97,6 +97,20 @@
       "desc": "Plateforme tous cycles (préscolaire au lycée), en français et en anglais : inscriptions, élèves, enseignants, bulletins, caisse et comptabilité, avec droits par rôle.",
       "loc": "Rufisque",
       "status": "en_cours"
+    },
+    {
+      "tag": "SaaS",
+      "title": "Kaay Jouer — réservation de terrains",
+      "desc": "Plateforme multi-gérants pour réserver des terrains de mini-foot et une salle de gym par date et créneau, avec paiement Wave et Orange Money.",
+      "loc": "Gérants de terrains, Sénégal",
+      "status": "fait"
+    },
+    {
+      "tag": "SaaS",
+      "title": "Sunu Keur — gestion immobilière",
+      "desc": "Plateforme multi-agences : biens, propriétaires, locataires, baux, loyers, quittances et suivi des impayés, installable sur téléphone.",
+      "loc": "Agences immobilières, Sénégal",
+      "status": "en_cours"
     }
   ]
 }

@@ -33,6 +33,18 @@ function setHTML(id, value) {
   if (el && value !== undefined && value !== null) el.innerHTML = value;
 }
 
+// Texte avec **gras** : échappe le HTML puis transforme **mot** en <strong>mot</strong>
+function richText(value) {
+  const esc = String(value)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  return esc.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+}
+
+function setRich(id, value) {
+  const el = document.getElementById(id);
+  if (el && value !== undefined && value !== null) el.innerHTML = richText(value);
+}
+
 async function loadJSON(path) {
   try {
     const res = await fetch(path, { cache: 'no-store' });
@@ -58,7 +70,7 @@ function renderSite(data) {
     if (data.hero.title_line1 || data.hero.title_accent) {
       setHTML('hero-title', `${data.hero.title_line1 || ''} <em>${data.hero.title_accent || ''}</em>`);
     }
-    setText('hero-lead', data.hero.lead);
+    setRich('hero-lead', data.hero.lead);
     setText('hero-cta-primary', data.hero.cta_primary_label);
     setText('hero-cta-secondary', data.hero.cta_secondary_label);
   }
@@ -66,13 +78,13 @@ function renderSite(data) {
   if (data.services_intro) {
     setText('services-kicker', data.services_intro.kicker);
     setText('services-title', data.services_intro.title);
-    setText('services-text', data.services_intro.text);
+    setRich('services-text', data.services_intro.text);
   }
 
   if (data.work_intro) {
     setText('work-kicker', data.work_intro.kicker);
     setText('work-title', data.work_intro.title);
-    setText('work-text', data.work_intro.text);
+    setRich('work-text', data.work_intro.text);
   }
 
   if (data.about) {
@@ -95,7 +107,7 @@ function renderSite(data) {
     const c = data.contact;
     setText('contact-kicker', c.kicker);
     setText('contact-title', c.title);
-    setText('contact-lead', c.lead);
+    setRich('contact-lead', c.lead);
     const wa = document.getElementById('contact-whatsapp');
     if (wa) {
       if (c.whatsapp_number) {

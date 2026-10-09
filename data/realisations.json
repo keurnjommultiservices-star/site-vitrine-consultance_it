@@ -32,7 +32,7 @@
       "tag": "Paie",
       "title": "Sunupaie — logiciel de paie",
       "desc": "Progiciel de gestion de la paie, taux de cotisations et bulletins, développé pour un usage multi-entreprises.",
-      "loc": "Keurnjom Multiservices",
+      "loc": "Cabinets tenant la comptabilté d'Ecoles Privées",
       "status": "fait"
     },
     {
@@ -50,7 +50,7 @@
       "status": "en_cours"
     },
     {
-      "tag": "Site vitrine",
+      "tag": "Santé - Site vitrine",
       "title": "Cabinet médical d'ophtalmologie",
       "desc": "Site de présentation pour un cabinet médical, pensé pour la prise de rendez-vous en ligne.",
       "loc": "Bloc Carnot, Dakar",
@@ -74,7 +74,7 @@
       "tag": "Logistique",
       "title": "Gestion de dépôt de gaz",
       "desc": "Suivi du stock, des clients et facturation avec impression, dashboard financier et comptes multi-utilisateurs (administrateur et dépositaires).",
-      "loc": "Keurnjom Multiservices",
+      "loc": "Divers",
       "status": "en_cours"
     },
     {
@@ -100,7 +100,7 @@
     },
     {
       "tag": "Gestion scolaire",
-      "title": "Gestion d'école privée bilingue",
+      "title": "Gestion d'école privée bilingue - Préscolaire - Collège - Lycée",
       "desc": "Plateforme tous cycles (préscolaire au lycée), en français et en anglais : inscriptions, élèves, enseignants, bulletins, caisse et comptabilité, avec droits par rôle.",
       "loc": "Rufisque",
       "status": "en_cours"
@@ -117,7 +117,7 @@
       "title": "Sunu Keur — gestion immobilière",
       "desc": "Plateforme multi-agences : biens, propriétaires, locataires, baux, loyers, quittances et suivi des impayés, installable sur téléphone.",
       "loc": "Agences immobilières, Sénégal",
-      "status": "en_cours"
+      "status": "fait"
     }
   ]
 }

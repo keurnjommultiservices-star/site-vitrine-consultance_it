@@ -33,11 +33,13 @@ function setHTML(id, value) {
   if (el && value !== undefined && value !== null) el.innerHTML = value;
 }
 
-// Texte avec **gras** : échappe le HTML puis transforme **mot** en <strong>mot</strong>
+// Texte avec **gras** et ++grand++ : échappe le HTML puis transforme **mot** en <strong>mot</strong>
 function richText(value) {
   const esc = String(value)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  return esc.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  return esc
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\+\+(.+?)\+\+/g, '<span class="txt-big">$1</span>');
 }
 
 function setRich(id, value) {

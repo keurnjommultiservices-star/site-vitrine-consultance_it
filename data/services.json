@@ -4,7 +4,7 @@
       "icon": "web",
       "title": "Sites web",
       "sub": "Vitrines & institutionnels",
-      "desc": "Sites vitrines pour cliniques, hôtels et administrations, pensés pour convertir un visiteur en appel ou en réservation WhatsApp — pas juste jolis, utiles.",
+      "desc": "**Sites vitrines pour cliniques, hôtels et administrations, pensés pour convertir un visiteur en appel ou en réservation WhatsApp — pas juste jolis, utiles**.",
       "tags": [
         "Site institutionnel de commune",
         "Vitrine cabinet médical",
@@ -14,7 +14,7 @@
     {
       "icon": "app",
       "title": "Applications de gestion",
-      "sub": "Écoles, pharmacies, entreprises",
+      "sub": "**Écoles, pharmacies, entreprises**",
       "desc": "Logiciels sur mesure, souvent utilisables hors-ligne, pour gérer élèves et bulletins, stock de médicaments, paie du personnel ou files d'attente en centre de santé.",
       "tags": [
         "Gestion scolaire (élèves, notes, bulletins)",
@@ -25,7 +25,7 @@
     {
       "icon": "shield",
       "title": "Conseil IT",
-      "sub": "Diagnostic & accompagnement",
+      "sub": "**Diagnostic & accompagnement**",
       "desc": "Choix d'outils, mise en place de systèmes d'alerte (échéances fiscales, relances), et accompagnement des équipes pour que le numérique reste simple à utiliser. Domaines fiscaux : accompagnement dans les declarations fiscales au niveau des differentes plateformes de la DGID.",
       "tags": [
         "Automatisation d'alertes fiscales",

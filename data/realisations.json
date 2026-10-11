@@ -10,9 +10,9 @@
     {
       "tag": "Gestion scolaire",
       "title": "SunuÉcole Pro — du primaire au collège",
-      "desc": "Évolution de SunuÉcole étendue au collège (6e à 3e), avec enseignants par matière, notes, bulletins et finances.",
-      "loc": "Écoles primaires et collèges, Sénégal",
-      "status": "en_cours"
+      "desc": "Version pour écoles privées, du CI à la 3e, installée sur un serveur local dans chaque établissement : enseignants par matière, notes, bulletins et caisse, avec des droits d’accès définis par le Directeur et une licence annuelle.",
+      "loc": "Écoles Privées du Sénégal",
+      "status": "fait"
     },
     {
       "tag": "Santé",

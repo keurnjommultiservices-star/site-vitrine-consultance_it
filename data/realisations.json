@@ -118,6 +118,20 @@
       "desc": "Plateforme multi-agences : biens, propriétaires, locataires, baux, loyers, quittances et suivi des impayés, installable sur téléphone.",
       "loc": "Agences immobilières, Sénégal",
       "status": "fait"
+    },
+    {
+      "tag": "Gestion",
+      "title": "SenStock — gestion de stock",
+      "desc": "Produits, ventes, approvisionnements, inventaires et rapports, avec dashboard et rôles vendeur et caissier sur appareils séparés, pensée pour fonctionner même sans connexion.",
+      "loc": "Boutiques et commerces, Sénégal",
+      "status": "en_cours"
+    },
+    {
+      "tag": "Application web",
+      "title": "Senwoyafal — calculateur Woyofal",
+      "desc": "Calcule le montant à payer et les kWh obtenus selon la tranche tarifaire (DPP, DMP, PPP, PMP), avec achat maximum et historique des achats.",
+      "loc": "Clients Woyofal, Sénégal",
+      "status": "fait"
     }
   ]
 }

@@ -86,9 +86,9 @@
     },
     {
       "tag": "Gestion",
-      "title": "Gestion de stations-service",
-      "desc": "Prototype de gestion multi-stations avec centralisation des données au siège, pour une société possédant plusieurs stations d'essence.",
-      "loc": "StationCtrl",
+      "title": "StationCtrl — gestion de stations d'essence",
+      "desc": "Plateforme en ligne pour les sociétés qui possèdent plusieurs stations : suivi du stock et des ventes par station, modes d'encaissement (espèces, Wave, Orange Money, carte, bons carburant) et centralisation des données au siège.",
+      "loc": "Sociétés multi-stations, Sénégal",
       "status": "en_cours"
     },
     {
